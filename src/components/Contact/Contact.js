@@ -1,10 +1,6 @@
 import "./Contact.css";
-import { useForm, ValidationError } from "@formspree/react";
+
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xbjvoybq");
-  if (state.succeeded) {
-    return <p>Thank you for your message</p>;
-  }
 
   return (
     <section className="contactCenter" id="contact">
