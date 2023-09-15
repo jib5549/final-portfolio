@@ -1,13 +1,124 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Playfair+Display&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Outfit&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mulish&family=Outfit&family=Poppins:wght@200;800&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: Mulish,sans-serif;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .text-primary {
+    text-align: center;
+  }
+  .about__role {
+    margin: 0 auto;
+    margin-bottom: 30vmin;
+  }
+
+  .about__contact {
+    margin: 0 auto;
+  }
+
+  .flex-row {
+    position: relative;
+  }
+  .image {
+    position: absolute;
+    top: -130px;
+    width: 30vmin;
+    height: 30vmin;
+  }
+  .about__desc {
+    text-align: center;
+    width: 90vmin;
+    margin-left: 5%;
+  }
+  .contact {
+    all: initial;
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+  }
+  .contact__content {
+    position: relative;
+    left: -60px;
+    top: 20px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .about h2 {
+    font-size: 1.5rem;
+  }
 }

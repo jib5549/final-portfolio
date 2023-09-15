@@ -1,0 +1,36 @@
+
+footer {
+    background-color: #2d2e32;
+    padding: 5rem 0;
+    width: 100%;
+    padding-left: 20rem;
+}
+
+.footerc {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 1.7rem;
+    font-family: Poppins,sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footericon {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-right: 20rem;
+}
+
+.footericon a {
+    color: #fff;
+    font-size: 2.3rem;
+}
+
