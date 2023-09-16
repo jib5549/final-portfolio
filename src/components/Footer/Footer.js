@@ -15,7 +15,7 @@ const Footer = () => {
                 aria-label="github"
                 className="link link--icon"
               >
-                <GitHubIcon style={{ width: "1em", height: "2em" }} />
+                <GitHubIcon style={{ width: "1em"}} />
               </a>
               <a
                 href="https://www.linkedin.com/in/junbaek0307/"
