@@ -35,8 +35,7 @@ const Contact = () => {
               </span>
               <div className="contact__info">
                 <h3>Resume</h3>
-                <a href="https://docs.google.com/document/d/10V2hJX_NFNSrr4590KAMB2ghXcv0OLfQbH6iw8Lbshc/edit?usp=sharing" download>PDF Download</a>
-                <a href="https://docs.google.com/document/d/1njmio6gsMGjgq6HmmNUGNs33pubCkV2GRyK7-ULNqeM/edit?usp=sharing" download>PDF Download Dark Theme</a>
+                <a href="https://docs.google.com/document/d/13Ac7a97w5HBgxPZbo4DnKV2ZpHX-g4NdKL-p2N4D5Vo/edit?usp=sharing" download>PDF Download</a>
               </div>
             </div>
           </div>
