@@ -13,11 +13,14 @@ const Projects = () => {
         <div className="projects-grid">
           {/* project #1 */}
           <div className="pro pro__1 reversed-proj">
+            <a className="pro__img"
+            href="https://fallmart.greatestcoderalive.me/">
             <img
               className="pro__img"
               src="https://i.imgur.com/VKPqxQZ.png"
               alt=""
             />
+            </a>
             <div className="pro__text">
               <h3>Fallmart</h3>
               <p>
@@ -52,11 +55,14 @@ const Projects = () => {
 
           {/* project #2 */}
           <div className="pro pro__1 undefined">
+            <a className="pro__img"
+            href="https://compuneed.greatestcoderalive.me">
             <img
               className="pro__img"
               src="https://i.imgur.com/OMbGgQ3.png"
               alt=""
             />
+            </a>
             <div className="pro__text">
               <h3>Compuneed</h3>
               <p>
@@ -90,11 +96,14 @@ const Projects = () => {
 
           {/* project #3 */}
           <div className="pro pro__1 reversed-proj">
+            <a className="pro__img"
+            href="https://moviehub-jm-9709b2322ea9.herokuapp.com/">
             <img
               className="pro__img"
               src="https://i.imgur.com/plmh98S.png"
               alt=""
             />
+            </a>
             <div className="pro__text">
               <h3>MovieHub 🎬</h3>
               <p>
@@ -129,11 +138,14 @@ const Projects = () => {
 
           {/* project #4 */}
           <div className="pro pro__1 undefined">
+          <a className="pro__img"
+          href="https://tictactoe-jmb.netlify.app/">
             <img
               className="pro__img"
               src="https://i.imgur.com/S1n7vQH.png"
               alt=""
             />
+            </a>
             <div className="pro__text">
               <h3>Tic-Tac-Toe</h3>
               <p>
@@ -168,11 +180,14 @@ const Projects = () => {
 
           {/* project #5 */}
           <div className="pro pro__1 reversed-proj">
+          <a className="pro__img"
+          href="https://weatherapp-jm-71e9624bdb6f.herokuapp.com/">
             <img
               className="pro__img"
               src="https://i.imgur.com/S8ksPw4.png"
               alt=""
             />
+            </a>
             <div className="pro__text">
               <h3>WeatherWhiz</h3>
               <p>
@@ -207,11 +222,14 @@ const Projects = () => {
 
           {/* project #6 */}
           <div className="pro pro__1 undefined">
+          <a className="pro__img"
+          href="https://todolist.greatestcoderalive.me/">
             <img
               className="pro__img"
               src="https://i.imgur.com/yWrJckQ.png"
               alt=""
             />
+            </a>
             <div className="pro__text">
               <h3>Todosfoyou🧾</h3>
               <p>
