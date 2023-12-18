@@ -97,7 +97,7 @@ const Projects = () => {
           {/* project #3 */}
           <div className="pro pro__1 reversed-proj">
             <a className="pro__img"
-            href="https://moviehub-jm-9709b2322ea9.herokuapp.com/">
+            href="https://moviehub-jm.onrender.com">
             <img
               className="pro__img"
               src="https://i.imgur.com/plmh98S.png"
@@ -126,7 +126,7 @@ const Projects = () => {
                   <GitHubIcon />
                 </a>
                 <a
-                  href="https://moviehub-jm-9709b2322ea9.herokuapp.com/"
+                  href="https://moviehub-jm.onrender.com"
                   aria-label="live preview"
                   className="link link--icon"
                 >
@@ -181,7 +181,7 @@ const Projects = () => {
           {/* project #5 */}
           <div className="pro pro__1 reversed-proj">
           <a className="pro__img"
-          href="https://weatherapp-jm-71e9624bdb6f.herokuapp.com/">
+          href="https://weatherapp-jm.onrender.com">
             <img
               className="pro__img"
               src="https://i.imgur.com/S8ksPw4.png"
@@ -210,7 +210,7 @@ const Projects = () => {
                   <GitHubIcon />
                 </a>
                 <a
-                  href="https://weatherapp-jm-71e9624bdb6f.herokuapp.com/"
+                  href="https://weatherapp-jm.onrender.com"
                   aria-label="live preview"
                   className="link link--icon"
                 >
