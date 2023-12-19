@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contact__container">
           <div className="contact__title">
             <p>contact</p>
-            <h3>Feel free to contact with me anything! 👇</h3>
+            <h3>Let's connect! 👇</h3>
           </div>
           <div className="contact__icons">
             <div className="contact__icon-box">

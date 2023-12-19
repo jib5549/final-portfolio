@@ -333,12 +333,14 @@
     height: 30rem;
     width: 30rem;
     margin: 1.8rem;
+    margin-left: 4rem;
 }
 }
 
 @media (max-width: 500px) {
   .hone {
     font-size: 5rem;
+    margin-left: 3rem;
 }
 }
 
@@ -346,6 +348,7 @@
   .pone {
     margin-bottom: 5rem;
     font-size: 2.5rem;
+    margin-left: 3rem;
 }
 }
 
@@ -355,6 +358,7 @@
     justify-content: center;
     margin-bottom: 7rem;
     margin-top: -2rem;
+    margin-left: 4rem;
 }
 }
 
@@ -396,6 +400,7 @@
   .skills {
     flex-direction: column;
     position: static;
+    margin-left: 2rem;
 }
 }
 
@@ -419,6 +424,7 @@
     height: 6.5rem;
     top: 1.4rem;
     width: 6.5rem;
+    margin-right: -9rem;
 }
 }
 
@@ -441,7 +447,7 @@
 @media (max-width: 400px) {
   .header {
     padding: 25px 30px;
-    width: 41.6rem;
+    width: 47rem;
 }
 }
 

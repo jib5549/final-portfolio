@@ -34,3 +34,25 @@ footer h3 {
     font-size: 2.3rem;
 }
 
+@media (max-width: 460px) {
+    .footerc {
+      align-items: center;
+        color: #2d2e32;
+        display: flex;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .containerFooter {
+        display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer {
+        display: none;
+        background-color: white
+    }
+}
+
