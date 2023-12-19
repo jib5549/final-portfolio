@@ -12,7 +12,6 @@ const App = () => {
   const contextValue = useContext(ThemeContext);
   return (
     <div id="top" className={`${contextValue.themeName} app`}>
-    <div className="getCentered">
       <Header />
       <main>
         <About />
@@ -21,7 +20,6 @@ const App = () => {
         <Footer />
       </main>
       <ScrollToTop />
-      </div>
     </div>
   );
 };

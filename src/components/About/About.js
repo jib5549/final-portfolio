@@ -8,22 +8,20 @@ const About = () => {
 
   return (
     <div>
-    <section className="container">
+    <section id="home" className="hero">
+    <div className="container">
       <div className="content">
-        <div className="main">
+        <div className="hero-main">
           <div className="mainText">
-            <h1 className="hone">Full-Stack</h1>
-            <h1 className="hone">Developer</h1>
+            <h1 className="hone">Full-Stack Developer</h1>
             <img
               className="waveimg"
               src="https://i.imgur.com/8NejSWU.png"
               alt="waving_hand"
-            ></img>
+            >
+            </img>
             <p className="pone">
-              Hi, I'm Jun Min Baek. A passionate Full-Stack Developer
-            </p>
-            <p className="pone">
-              based in Philadelphia. 📍
+              Hi, I'm Jun Min Baek. A passionate Full-Stack Developer based in Philadelphia. 📍
             </p>
             <span className="social">
               <a
@@ -59,14 +57,15 @@ const About = () => {
           </div>
         </div>
       </div>
+      </div>
       </section>
       <section className="aboutMeSection">
       <section className="aboutMe" id="about">
         <div className="containerMe">
           <div className="aboutMeContainer">
             <div className="img-side">
+            <img className="main-img" src="https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt=""/>
               <img className="worker-img" src="https://i.imgur.com/QypJ40c.png" alt=""/>
-              <img className="main-img" src="https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp" alt=""/>
               <span>
                 <img className="rotatePic" src="https://i.imgur.com/GNQi0mR.png" alt=""/>
               </span>
