@@ -173,3 +173,9 @@ main {
   transform: translateY(-5px);
 }
 
+@media (max-width: 460px) {
+  .light {
+    background-color: white;
+  }
+}
+

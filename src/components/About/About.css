@@ -98,11 +98,10 @@
 @media (max-width: 460px) {
   .main-img {
     height: auto;
-    width: 120%;
     align-items: center;
     display: flex;
     text-align: center;
-    margin-left: -3rem;
+    margin-left: -2.5rem;
 }
 }
 
@@ -550,16 +549,21 @@
 
 @media (max-width: 460px) {
   .text-side h3{
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-left: -4rem;
     margin-bottom: 3rem;
   }
 
   .text-side h4{
     font-size: 3.5rem;
+    width: 35rem;
+    margin-left: -4rem;
+    margin-bottom: 6rem;
   }
 
   .text-side p{
     font-size: 2rem;
+    margin-left: -5rem;
   }
   }
 

@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section className="section projects">
       <div className="project-content">
-        <p id="projects">projects</p>
+        <p className="projects">projects</p>
         <h3>Each project is a unique piece of development 🧩</h3>
         <div className="projects-grid">
           {/* project #1 */}

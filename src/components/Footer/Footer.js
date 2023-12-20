@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
   return (
     <div>
-      <footer>
+      <div className="footer">
         <div className="containerFooter">
           <div className="footerc">
             <h3>Copyright © 2023 . All rights are reserved</h3>
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
   );
 };
